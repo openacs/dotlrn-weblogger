@@ -89,7 +89,7 @@ ad_proc -public dotlrn_weblogger::remove_user {
     user_id
 } {
 } {
-    ad_return_complaint 1 "[applet_key] remove_user not implimented!"
+    # noop
 }
 
 ad_proc -public dotlrn_weblogger::add_user_to_community {
