@@ -14,6 +14,7 @@
         <provides url="dotlrn-weblogger" version="0.1d"/>
         <requires url="dotlrn" version="1.0"/>
         <requires url="lars-blogger" version="0.8.5"/>
+        <requires url="weblogger-portlet" version="0.1d"/>
 
         <callbacks>
           <callback type="after-install"  proc="dotlrn_weblogger::install"/>
