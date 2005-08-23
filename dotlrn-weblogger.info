@@ -7,12 +7,12 @@
     <initial-install-p>f</initial-install-p>
     <singleton-p>t</singleton-p>
     
-    <version name="2.1.3b1" url="http://openacs.org/repository/download/apm/dotlrn-weblogger-2.1.3b1.apm">
+    <version name="2.1.3b2" url="http://openacs.org/repository/download/apm/dotlrn-weblogger-2.1.3b2.apm">
         <owner url="mailto:simon@bcuni.net">Simon Carstensen</owner>
-        <release-date>2005-07-29</release-date>
+        <release-date>2005-08-23</release-date>
         <vendor url="http://www.collaboraid.biz">Collaboraid</vendor>
 
-        <provides url="dotlrn-weblogger" version="2.1.3b1"/>
+        <provides url="dotlrn-weblogger" version="2.1.3b2"/>
         <requires url="dotlrn" version="1.0"/>
         <requires url="lars-blogger" version="0.8.5"/>
         <requires url="weblogger-portlet" version="0.1d"/>
