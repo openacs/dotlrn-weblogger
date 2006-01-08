@@ -116,6 +116,14 @@ ad_proc -public dotlrn_weblogger::remove_user_from_community {
 } {
     set package_id [dotlrn_community::get_applet_package_id -community_id $community_id -applet_key [applet_key]]
     set portal_id [dotlrn::get_portal_id -user_id $user_id]
+    set request_id [notification::request::get_request_id \
+                        -type_id \
+                             [notification::type::get_type_id \
+                             -short_name lars_blogger_notif] \
+                        -object_id $package_id \
+                        -user_id $user_id]
+
+    notification::request::delete -request_id $request_id
 
     set args [ns_set create]
     ns_set put $args package_id $package_id
