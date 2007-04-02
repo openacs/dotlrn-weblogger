@@ -13,8 +13,8 @@
         <vendor url="http://www.collaboraid.biz">Collaboraid</vendor>
 
         <provides url="dotlrn-weblogger" version="2.3.0a1"/>
-        <requires url="dotlrn" version="5.3.0a1"/>
-        <requires url="weblogger-portlet" version="5.3.0a1"/>
+        <requires url="dotlrn" version="2.3.0a1"/>
+        <requires url="weblogger-portlet" version="2.3.0a1"/>
 
         <callbacks>
           <callback type="after-install"  proc="dotlrn_weblogger::install"/>
