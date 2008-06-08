@@ -7,14 +7,14 @@
     <initial-install-p>f</initial-install-p>
     <singleton-p>t</singleton-p>
     
-    <version name="2.4.0a1" url="http://openacs.org/repository/download/apm/dotlrn-weblogger-2.4.0a1.apm">
+    <version name="2.4.0b1" url="http://openacs.org/repository/download/apm/dotlrn-weblogger-2.4.0b1.apm">
         <owner url="mailto:simon@bcuni.net">Simon Carstensen</owner>
-        <release-date>2008-03-22</release-date>
+        <release-date>2008-06-08</release-date>
         <vendor url="http://www.collaboraid.biz">Collaboraid</vendor>
 
-        <provides url="dotlrn-weblogger" version="2.4.0a1"/>
-        <requires url="dotlrn" version="2.4.0a1"/>
-        <requires url="weblogger-portlet" version="2.4.0a1"/>
+        <provides url="dotlrn-weblogger" version="2.4.0b1"/>
+        <requires url="dotlrn" version="2.4.0b1"/>
+        <requires url="weblogger-portlet" version="2.4.0b1"/>
 
         <callbacks>
           <callback type="after-install"  proc="dotlrn_weblogger::install"/>
