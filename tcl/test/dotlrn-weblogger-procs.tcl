@@ -93,7 +93,7 @@ aa_register_case dotlrn-weblogger_notification_member_check {
 			    }
 			}
 
-		    aa_false "Non-members $wrong_subs subscribed to $weblogger_package_id in $community_id" [expr {[llength $wrong_subs]>0}]
+		    aa_false "Non-members $wrong_subs subscribed to $weblogger_package_id in $community_id" {[llength $wrong_subs]>0}
 		    }
 	    # make sure only members are subscribed
 	}
